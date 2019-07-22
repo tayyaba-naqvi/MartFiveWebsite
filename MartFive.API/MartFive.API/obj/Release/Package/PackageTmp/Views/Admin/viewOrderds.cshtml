@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Admin_Panel.Models.OrderAdmin>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OL_Id1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OL_Price1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OL_Status1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User_Id1)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OL_Id1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OL_Price1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OL_Status1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User_Id1)
+        </td>
+        <td>
+            @Html.ActionLink("Accept", "Update", new { /* id=item.PrimaryKey */ }) |
+           
+        </td>
+    </tr>
+}
+
+</table>

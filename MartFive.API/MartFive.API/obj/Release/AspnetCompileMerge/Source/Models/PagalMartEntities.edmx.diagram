@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c11222073d324111a563dbd04da8bf9b" Name="Diagram1">
+        <EntityTypeShape EntityType="PagalMartModel.Address" Width="1.5" PointX="10.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.Cart" Width="1.5" PointX="9.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.Category" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.Contact" Width="1.5" PointX="9.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.Item" Width="1.5" PointX="7.5" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.Order" Width="1.5" PointX="15" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.OrderList" Width="1.5" PointX="12.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.Picture" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.Review" Width="1.5" PointX="9.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.SubCategory" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.User" Width="1.5" PointX="7.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="PagalMartModel.DCharge" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="PagalMartModel.FK_OrderList_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_Cart_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_Cart_User" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_Category_Picture" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_SubCategory_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_Contact_User" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_Item_Picture" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_Item_SubCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_Reviews_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_Order_OrderList" ManuallyRouted="false" />
+        <AssociationConnector Association="PagalMartModel.FK_OrderList_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

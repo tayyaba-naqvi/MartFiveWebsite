@@ -1,0 +1,12 @@
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\bin\Release\MartfiveDataAccess.dll.config
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\bin\Release\MartfiveDataAccess.dll
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\bin\Release\MartfiveDataAccess.pdb
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\bin\Release\EntityFramework.dll
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\bin\Release\EntityFramework.xml
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\obj\Release\MartfiveDataAccess.csprojAssemblyReference.cache
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\obj\Release\MartfiveDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\obj\Release\MartfiveDataAccess.csproj.CopyComplete
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\obj\Release\MartfiveDataAccess.dll
+C:\Users\anass\Desktop\MartFive.API\MartfiveDataAccess\obj\Release\MartfiveDataAccess.pdb

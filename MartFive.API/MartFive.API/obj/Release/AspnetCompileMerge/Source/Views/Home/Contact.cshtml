@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+<!-- Breadcrumb Area Start -->
+<div class="breadcrumb-area bg-12 text-center">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="@Url.Action("Index","Home")">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- Breadcrumb Area End -->
+<!-- Contact Area Start -->
+<div class="contact-area fix mb-95">
+    <div class="contact-form pt-110">
+        <h1 class="contact-title">FEEDBACK</h1>
+        <form id="contact-form" action="" method="post">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" name="name" id="name" placeholder="First Name *">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="l_name" id="l_name" placeholder="Last Name *">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="email" id="email" placeholder="Email *">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="subject" id="subject" placeholder="Subject *">
+                </div>
+            </div>
+            <textarea name="message" id="message" placeholder="Message *"></textarea>
+            <button type="button" class="submit-btn default-btn">
+                <span>Send Email</span>
+            </button>
+            <p class="form-messege"></p>
+        </form>
+    </div>
+    <div class="contact-address pt-110 pb-100">
+        <h1 class="contact-title">CONTACT US</h1>
+        <div class="contact-info">
+            <p>Mart Five aims to be a very customer centric organization. We intend to focus on complete customer journey of our customers, starting with ordering quality products at competitive pricing, on time delivery and hassle-free return policy.</p>
+            <div class="contact-list-wrapper">
+                <div class="contact-list">
+                    <i class="fa fa-phone"></i>
+                    <span><a href="mailto:customer@martfive.com">customer@martfive.com</a></span>
+                </div>
+                <div class="contact-list">
+                    <i class="fa fa-envelope-o"></i>
+                    <span>+(92) 334 4687990</span>
+                </div>
+            </div>
+        </div>
+        <div class="working-time">
+            <h2>Working hours</h2>
+            <span><span>Monday – Sunday:</span> 9:00AM - 9:00PM</span>
+        </div>
+    </div>
+</div>
+<!-- Contact Area End -->

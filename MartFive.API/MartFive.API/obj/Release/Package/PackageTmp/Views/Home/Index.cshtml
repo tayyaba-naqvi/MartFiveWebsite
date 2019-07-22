@@ -1,0 +1,410 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+<!-- Main Wrapper Start -->
+<div class="main-wrapper bg-8">
+    <!-- Hero Area Start -->
+    <div class="ht-hero-section fix ht-hero-four">
+        <div class="hero-padding">
+            <div class="row">
+                <div class="col-lg-7 col-md-7">
+                    <div class="ht-hero-content-one">
+                        <h3>Online Shopping Store</h3>
+                        <h1 class="cssanimation leDoorCloseLeft sequence">Only in Lahore</h1>
+                        <p>We believe that healthy eating, clean air, and gentle character is the best start to genuine wellbeing.</p>
+                        <a href="@Url.Action("Shop","Home")" class="default-btn large circle blue hover-blue uppercase">Shop now</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5">
+                    <div class="hero-image">
+                        <img src="@Url.Content("~/Content/")assets/img/banner/5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Area End -->
+    <!-- Banner Four Area Start -->
+    <div class="banner-four-area">
+        <div class="container">
+            <div class="banner-four-container d-flex">
+                <div class="banner-four-image">
+                    <a href="#">
+                        <img src="@Url.Content("~/Content/")assets/img/banner/4.png" alt="">
+                    </a>
+                </div>
+                <div class="banner-four-text">
+                    <div class="banner-logo">
+                        <img src="@Url.Content("~/Content/")assets/img/logo/logo.png" alt="">
+                    </div>
+                    <h4>who we are</h4>
+                    <p>Mart Five is a grocery products web store which aims at saving users from the hassle of going out and buying every day necessities.Mart Five aims to be a very customer centric organization. We intend to focus on complete customer journey of our customers, starting with ordering quality products at competitive pricing, on time delivery and hassle-free return policy.</p>
+                    <p>Mart Five aims to evolve the grocery service industry in Pakistan and we aim to target the people who lead a busy lifestyle to shift them from the traditional method of grocery procurement to a more advance online mode. We will ensure a hassle-free shopping experience for our customers, so that they can spend valuable time and energy somewhere else.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner Four Area End -->
+    <!-- Protuct Area Start -->
+    <div class="product-area pt-100 product-four-area">
+        <div class="container">
+            <div class="section-title section-title-four text-center mb-40">
+                <h4>Mart Five</h4>
+                <h2>Products</h2>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="product-carousel-two text-center">
+                <div class="custom-col">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="@Url.Action("ProductDetails","Home")?id=1">
+                                <img src="@Url.Content("~/Content/")assets/img/product/21.jpg" alt="">
+                            </a>
+                            <div class="product-hover">
+                                <ul class="hover-icon-list">
+
+                                    <li>
+                                        <a href="@Url.Action("ProductDetails","Home")?id=1"><i class="icon icon-Restart"></i></a>
+                                    </li>
+
+                                </ul>
+                                <a href="@Url.Action("ProductDetails","Home")?id=1"><button type="button" class="p-cart-btn">Add to cart</button></a>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-rating">
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5><a href="@Url.Action("ProductDetails","Home")?id=1">Organic Gel</a></h5>
+                            <div class="pro-price">
+                                <span class="new-price">Rs.156.00</span>
+                                <span class="old-price">Rs.192.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="@Url.Action("ProductDetails","Home")?id=2">
+                                <img src="@Url.Content("~/Content/")assets/img/product/22.jpg" alt="">
+                            </a>
+                            <div class="product-hover">
+                                <ul class="hover-icon-list">
+
+                                    <li>
+                                        <a href="@Url.Action("ProductDetails","Home")?id=2"><i class="icon icon-Restart"></i></a>
+                                    </li>
+
+                                </ul>
+                                <a href="@Url.Action("ProductDetails","Home")?id=2"><button type="button" class="p-cart-btn">Add to cart</button></a>
+</div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-rating">
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5><a href="@Url.Action("ProductDetails","Home")?id=2">Oily Facewash</a></h5>
+                            <div class="pro-price">
+                                <span class="new-price">Rs.140.00</span>
+                                <span class="old-price">Rs.230.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="@Url.Action("ProductDetails","Home")?id=7">
+                                <img src="@Url.Content("~/Content/")assets/img/product/2.jpg" alt="">
+                            </a>
+                            <div class="product-hover">
+                                <ul class="hover-icon-list">
+
+                                    <li>
+                                        <a href="@Url.Action("ProductDetails","Home")?id=7"><i class="icon icon-Restart"></i></a>
+                                    </li>
+
+                                </ul>
+                                <a href="@Url.Action("ProductDetails","Home")?id=7"><button type="button" class="p-cart-btn">Add to cart</button></a>
+</div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-rating">
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5><a href="@Url.Action("ProductDetails","Home")?id=7">Banana</a></h5>
+                            <div class="pro-price">
+                                <span class="new-price">Rs.50.00</span>
+                                <span class="old-price">Rs.74.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="@Url.Action("ProductDetails","Home")?id=8">
+                                <img src="@Url.Content("~/Content/")assets/img/product/10.jpg" alt="">
+                            </a>
+                            <div class="product-hover">
+                                <ul class="hover-icon-list">
+
+                                    <li>
+                                        <a href="@Url.Action("ProductDetails","Home")?id=8"><i class="icon icon-Restart"></i></a>
+                                    </li>
+
+                                </ul>
+                                <a href="@Url.Action("ProductDetails","Home")?id=8"><button type="button" class="p-cart-btn">Add to cart</button></a>
+</div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-rating">
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5><a href="@Url.Action("ProductDetails","Home")?id=8">Grapes</a></h5>
+                            <div class="pro-price">
+                                <span class="new-price">Rs.228.00</span>
+                                <span class="old-price">Rs.320.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="@Url.Action("ProductDetails","Home")?id=9">
+                                <img src="@Url.Content("~/Content/")assets/img/product/25.jpg" alt="">
+                            </a>
+                            <div class="product-hover">
+                                <ul class="hover-icon-list">
+
+                                    <li>
+                                        <a href="@Url.Action("ProductDetails","Home")?id=9"><i class="icon icon-Restart"></i></a>
+                                    </li>
+
+                                </ul>
+                                <a href="@Url.Action("ProductDetails","Home")?id=9"><button type="button" class="p-cart-btn">Add to cart</button></a>
+</div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-rating">
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5><a href="@Url.Action("ProductDetails","Home")?id=9">ALoevera Gel</a></h5>
+                            <div class="pro-price">
+                                <span class="new-price">Rs.250.00</span>
+                                <span class="old-price">Rs.340.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="@Url.Action("ProductDetails","Home")?id=10">
+                                <img src="@Url.Content("~/Content/")assets/img/product/31.jpg" alt="">
+                            </a>
+                            <div class="product-hover">
+                                <ul class="hover-icon-list">
+
+                                    <li>
+                                        <a href="@Url.Action("ProductDetails","Home")?id=10"><i class="icon icon-Restart"></i></a>
+                                    </li>
+
+                                </ul>
+                                <a href="@Url.Action("ProductDetails","Home")?id=10"><button type="button" class="p-cart-btn">Add to cart</button></a>
+</div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-rating">
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5><a href="@Url.Action("ProductDetails","Home")?id=10">Sprite</a></h5>
+                            <div class="pro-price">
+                                <span class="new-price">Rs.75.00</span>
+                                <span class="old-price">Rs.90.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="@Url.Action("ProductDetails","Home")?id=11">
+                                <img src="@Url.Content("~/Content/")assets/img/product/35.jpg" alt="">
+                            </a>
+                            <div class="product-hover">
+                                <ul class="hover-icon-list">
+
+                                    <li>
+                                        <a href="@Url.Action("ProductDetails","Home")?id=11"><i class="icon icon-Restart"></i></a>
+                                    </li>
+
+                                </ul>
+                                <a href="@Url.Action("ProductDetails","Home")?id=11"><button type="button" class="p-cart-btn">Add to cart</button></a>
+</div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-rating">
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5><a href="@Url.Action("ProductDetails","Home")?id=11">Nestle Fruita Vitals</a></h5>
+                            <div class="pro-price">
+                                <span class="new-price">Rs.35.00</span>
+                                <span class="old-price">Rs.40.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-col">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="@Url.Action("ProductDetails","Home")?id=12">
+                                <img src="@Url.Content("~/Content/")assets/img/product/34.jpg" alt="">
+                            </a>
+                            <div class="product-hover">
+                                <ul class="hover-icon-list">
+
+                                    <li>
+                                        <a href="@Url.Action("ProductDetails","Home")?id=12"><i class="icon icon-Restart"></i></a>
+                                    </li>
+
+                                </ul>
+                                <a href="@Url.Action("ProductDetails","Home")?id=12"><button type="button" class="p-cart-btn">Add to cart</button></a>
+
+</div>
+                        </div>
+                        <div class="product-text">
+                            <div class="product-rating">
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o color"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <h5><a href="@Url.Action("ProductDetails","Home")?id=12">Express Power</a></h5>
+                            <div class="pro-price">
+                                <span class="new-price">Rs.275.00</span>
+                                <span class="old-price">Rs.350.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Protuct Area End -->
+</div>
+<!-- Main Wrapper End -->
+<!-- Testimonial Area Start -->
+<div class="testimonial-area pt-80 testimonial-four-area bg-11">
+    <div class="container">
+        <div class="section-title section-title-four text-center mb-50">
+            <h4>Testimonials</h4>
+            <h2>What our clients say</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="testimonial-slider-wrapper">
+            <div class="text-carousel text-center">
+                <div class="slider-text">
+                    <span class="testi-quote">
+                        <img src="@Url.Content("~/Content/")assets/img/icon/quote.png" alt="">
+                    </span>
+                    <p>It has always been a very good expereince. Mart Five always deliver the quality product on time. With the help of Mart Five. shopping has become easy. </p>
+                </div>
+                <div class="slider-text">
+                    <ssspan class="testi-quote">
+                        <img src="@Url.Content("~/Content/")assets/img/icon/quote.png" alt="">
+                    </ssspan>
+                    <p>Mart Five has always come up to my expectations. I hve always got what I ordered.</p>
+                </div>
+                <div class="slider-text">
+                    <span class="testi-quote">
+                        <img src="@Url.Content("~/Content/")assets/img/icon/quote.png" alt="">
+                    </span>
+                    <p>Good job Mart Five. Keep it up.</p>
+                </div>
+                <div class="slider-text">
+                    <span class="testi-quote">
+                        <img src="@Url.Content("~/Content/")assets/img/icon/quote.png" alt="">
+                    </span>
+                    <p>It has always been a very good expereince. Mart Five always deliver the quality product on time. With the help of Mart Five. shopping has become easy.</p>
+                </div>
+                <div class="slider-text">
+                    <span class="testi-quote">
+                        <img src="@Url.Content("~/Content/")assets/img/icon/quote.png" alt="">
+                    </span>
+                    <p>Mart Five has always come up to my expectations. I hve always got what I ordered.</p>
+                </div>
+                <div class="slider-text">
+                    <span class="testi-quote">
+                        <img src="@Url.Content("~/Content/")assets/img/icon/quote.png" alt="">
+                    </span>
+                    <p>Good job Mart Five. Keep it up.</p>
+                </div>
+            </div>
+            <div class="image-carousel">
+                <div class="testi-img">
+                    <img src="@Url.Content("~/Content/")assets/img/testimonial/1.png" alt="">
+                    <h4>Ali Ahmad</h4>
+                </div>
+                <div class="testi-img">
+                    <img src="@Url.Content("~/Content/")assets/img/testimonial/2.png" alt="">
+                    <h4>Rohail Chaudary</h4>
+                </div>
+                <div class="testi-img">
+                    <img src="@Url.Content("~/Content/")assets/img/testimonial/3.png" alt="">
+                    <h4>Aaliyan Asif</h4>
+                </div>
+                <div class="testi-img">
+                    <img src="@Url.Content("~/Content/")assets/img/testimonial/1.png" alt="">
+                    <h4>Ali Ahmad</h4>
+                </div>
+                <div class="testi-img">
+                    <img src="@Url.Content("~/Content/")assets/img/testimonial/2.png" alt="">
+                    <h4>Rohail Chaudary</h4>
+                </div>
+                <div class="testi-img">
+                    <img src="@Url.Content("~/Content/")assets/img/testimonial/3.png" alt="">
+                    <h4>Aaliyan Asif</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial Area End -->
+<!-- Wrapper Two Area -->
+<!-- Wrapper Two Area End -->
